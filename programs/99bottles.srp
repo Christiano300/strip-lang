@@ -1,0 +1,23 @@
+(1 plural)
+    "1 bottle
+
+($count plural)
+    "$count bottles
+
+(bottles 1)
+    print 1 bottle of beer on the wall
+    print 1 bottle of beer
+    print take one down, pass it around
+    "no more bottles of beer on the wall
+
+(bottles $number)
+    print $number bottles of beer on the wall
+    print $number bottles of beer
+    print take one down, pass it around
+    lower = $number - 1
+    print ($lower plural) of beer on the wall
+    print 
+    bottles $lower
+
+()
+    bottles 99

@@ -1,0 +1,13 @@
+()#
+    input = "quinify (open)quinify input(close)
+    $input
+(open) # Open Paren
+    (A - S) @ 2
+(close) # Close Paren
+    (A - R) @ 2
+(enter) #\n
+    (A - q) @ 2
+(dollar) # $ sign
+    (A - W) @ 2
+(quinify $*)
+    show rules

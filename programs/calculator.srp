@@ -1,0 +1,18 @@
+(calc $a + $b)
+    $a + $b
+
+(calc $a - $b)
+    $a - $b
+
+(calc $a $op $b)
+    print $op is not supported
+    run
+
+(run)
+    a = input Enter first number: 
+    b = input Enter second number: 
+    op = input Enter operator: 
+    calc $a $op $b
+
+()
+    run
